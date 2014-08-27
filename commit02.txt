@@ -1,0 +1,38 @@
+//Commit 02 por Heberty carlos, Eng04na.  Cálculo da rais de delta.
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+
+
+using namespace std;
+
+int main()
+{
+	float a, b, c, delta, x1, x2;
+	
+	
+	cout << "Aqui voce vai calcular a raiz de DELTA" <<endl << endl << endl;
+	
+	cout << "Entre com o valor de a"<< endl;
+	cin >> a;
+	cout << "Entre com o valor de b"<< endl;
+	cin >> b;
+	cout << "Entre com o valor de c"<< endl;
+	cin >> c;
+	
+	delta = b*b-4*a*c;
+	cout <<"A raiz de Delta e:" << delta << endl;
+
+	 
+	 x1 = ((-b) + sqrt(delta))/(2*a);
+	 x2 = ((-b) - sqrt(delta))/(2*a);
+	 
+	 cout << "X1 :" << x1 << endl;
+	 cout << "X2 :" << x2 << endl;
+	 
+	 
+	 
+	
+
+	
+}
