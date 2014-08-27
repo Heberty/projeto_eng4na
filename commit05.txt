@@ -1,0 +1,28 @@
+﻿//Commit 04 por Heberty carlos, Eng04na.  Área da circuferência
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+
+
+using namespace std;
+
+int main()
+{
+	float  R, area, PI;
+	
+	
+	cout << "Aqui voce vai calcular a area de da circuferencia" <<endl << endl << endl;
+	
+	
+	cout << "Entre com o raio"<< endl;
+	cin >> R;
+	
+	area = M_PI*R*R;
+	
+	
+	cout <<"A area e :" << area << endl;
+
+	
+
+	
+}
