@@ -1,0 +1,53 @@
+//Commit 02 por Heberty carlos, Eng04na. Números romanos usando switch.
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+	int valor;
+	cout << "--Aqui voce sabera alguns dos numeros romanos--" << endl << endl;
+	cout << "Digite qual numero gostaria de saber de 1 a 10 : " ;
+	cin >> valor ;
+	
+	switch (valor)
+	{
+		case 1 : ;
+		cout << endl << "I" ;  
+		break;
+		case 2 : ;
+		cout << endl << "II" ;
+		break;
+		case 3 : ;
+		cout << endl << "III" ;
+		break;
+		case 4 : ;
+		cout << endl << "IV" ;
+		break;
+		case 5 : ;
+		cout << endl << "V" ;
+		break;
+		case 6 : ;
+		cout << endl << "VI" ;
+		break;
+		case 7 : ;
+		cout << endl << "VII" ;
+		break;
+		case 8 : ;
+		cout << endl << "VIII" ;
+		break;
+		case 9 : ;
+		cout << endl << "IX" ;
+		break;
+		case 10 : ;
+		cout << endl << "X" ;
+		break;
+		
+		default : ;
+		cout << endl << "Valor Inválido";
+	}
+	getch();
+	return 0;
+}
