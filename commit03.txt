@@ -1,0 +1,27 @@
+﻿//Commit 03 por Heberty carlos, Eng04na. Média Aritmética
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	float a, b, c, d, e, media;
+	
+	cout << "Aqui voce vai calcular a media aritmetica" <<endl << endl << endl;
+	
+	cout << "Entre com o valor de a"<< endl;
+	cin >> a;
+	cout << "Entre com o valor de b"<< endl;
+	cin >> b;
+	cout << "Entre com o valor de c"<< endl;
+	cin >> c;
+	cout << "Entre com o valor de d"<< endl;
+	cin >> d;
+	cout << "Entre com o valor de e"<< endl << endl << endl;
+	cin >> e;
+	
+	media = a+b+c+d+e/5;
+	cout <<"A media aritmetica e :" << media << endl;
+
+	
+}
