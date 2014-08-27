@@ -1,0 +1,28 @@
+//Commit 04 por Heberty carlos, Eng04na.  Pitágoras
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+
+
+using namespace std;
+
+int main()
+{
+	float pitagoras, a, b;
+	
+	
+	cout << "Aqui voce vai calcular pitagoras" <<endl << endl << endl;
+	
+	
+	cout << "Entre com o primeiro cateto"<< endl;
+	cin >> a;
+	cout << "Entre com o segundo cateto"<< endl;
+	cin >> b;
+	
+	pitagoras = (a*a) + (b*b);
+	cout <<"Pitagoras e:" << sqrt(pitagoras) << endl;
+
+	
+
+	
+}
