@@ -1,0 +1,31 @@
+//Commit 07 por Heberty carlos, Eng04na.  Cálculo de notas dos alunos
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+
+{
+	float a, b, c, d, media;
+	
+	cout << "--Digite as notas dos aluno de acordo com o bimestre-- " << endl << endl << endl;
+	
+	cout << "Primeiro bimestre: " ;
+	cin >> a ;
+	cout << "Segundo bimestre: " ;
+	cin >> b ;
+	cout << "Terceiro bimestre: " ;
+	cin >> c ;
+	cout << "Quarto bimestre: " ;
+	cin >> d ;
+	
+	media = (a+b+c+d)/(4);
+	
+	cout << "MEDIA: " << media << endl << endl;
+
+
+	if (media>=7)
+	cout << "APROVADO!" << endl << endl;
+	else 
+	cout << "REPROVADO" << endl << endl;
