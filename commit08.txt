@@ -1,0 +1,27 @@
+//Commit 08 por Heberty carlos, Eng04na.  Múltiplos de qualquer número usando string.
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	string exit;
+
+  {
+	int a;
+	
+	cout << "Entre com o numero que deseja saber os multiplos" << endl << endl;
+	cin >> a;
+	 for (int i=0; i<=20; i+=a) 
+		cout << i << ", " ; 
+		
+   
+	cout << "\n\nMultiplos de: " << a << endl;
+	cout << "Digite o comando de saida: " ;
+	cin >> exit;
+	while ( exit != "exit");
+	 
+  }  	
+} 
