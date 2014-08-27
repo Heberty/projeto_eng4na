@@ -1,0 +1,13 @@
+//Commit 06 por Heberty carlos, Eng04na.  Múltiplos de 3 usando for.
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	for (int i=0; i<=20; i+=3) {
+		cout << i << ", ";
+	}
+	cout << "...n. Esses sao os multiplos de 3\n";
+}
