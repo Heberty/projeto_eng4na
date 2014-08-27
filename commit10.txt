@@ -1,0 +1,53 @@
+//Commit 10 por Heberty carlos, Eng04na.  Nota de 1 a 10.
+
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+	int nota;
+	cout << "Digite uma nota de 1 a 10 para sua beleza : " << endl ;
+	cin >> nota ;
+	
+	switch (nota)
+	
+	{
+		case 1 : ;
+		cout << endl << "HORRIVEL!" ;  
+		break;
+		case 2 : ;
+		cout << endl << "QUASE HORRIVEL!" ;
+		break;
+		case 3 : ;
+		cout << endl << "FEIO" ;
+		break;
+		case 4 : ;
+		cout << endl << "QUASE FEIO" ;
+		break;
+		case 5 : ;
+		cout << endl << "BONITINHO" ;
+		break;
+		case 6 : ;
+		cout << endl << "BONITO" ;
+		break;
+		case 7 : ;
+		cout << endl << "QUASE LINDO" ;
+		break;
+		case 8 : ;
+		cout << endl << "LINDO" ;
+		break;
+		case 9 : ;
+		cout << endl << "QUASE MARAVILHOSO" ;
+		break;
+		case 10 : ;
+		cout << endl << "MARAVILHOSO" ;
+		break;
+		
+		default : ;
+		cout << endl << "Valor Inválido";
+	
+	}
+	
+}
